@@ -334,7 +334,8 @@ footer {
   transition:
     transform 0.18s ease,
     border-color 0.18s ease,
-    background 0.18s ease;
+    background 0.18s ease,
+    color 0.18s ease;
   white-space: normal;
 }
 
@@ -345,9 +346,9 @@ footer {
 }
 
 .answer-selected {
-  border-color: var(--pick);
-  background: rgba(45, 212, 191, 0.18);
-  color: #eafff9;
+  border-color: #7e22ce;
+  background: #fef3c7;
+  color: #7e22ce;
 }
 
 .answer-correct {
